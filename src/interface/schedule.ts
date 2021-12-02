@@ -1,10 +1,10 @@
-export interface schedule{
-    id:number;
-    Playingdate: Date;
-    HomeTeam: string;
-    AwayTeam: string;
-    HomeScore: Number;
-    AwayScore: Number;
-    RefName: string;
-    notes?: string;
+export interface Schedule{
+    id          :number,
+    Playingdate : Date,
+    HomeTeam    : string,
+    AwayTeam    : string,
+    HomeScore   : number,
+    AwayScore   : number,
+    RefName     : string,
+    notes?      : string
 }
